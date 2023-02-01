@@ -12,7 +12,12 @@
     mc:Ignorable="d">
 
     <RelativePanel>
-        <TextBlock x:Name="textblockEuro" RelativePanel.AlignHorizontalCenterWithPanel="True">Montant en euros</TextBlock>
+        <TextBlock
+            x:Name="textblockEuro"
+            Margin="0,50,0,0"
+            RelativePanel.AlignHorizontalCenterWithPanel="True">
+            Montant en euros
+        </TextBlock>
         <TextBox
             x:Name="textboxEuro"
             RelativePanel.AlignHorizontalCenterWithPanel="True"
@@ -20,6 +25,7 @@
             Text="{Binding MontantEuro, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
         <TextBlock
             x:Name="textblockDevise"
+            Margin="0,50,0,0"
             RelativePanel.AlignHorizontalCenterWithPanel="True"
             RelativePanel.Below="textboxEuro">
             Devise
@@ -33,6 +39,7 @@
             SelectedItem="{Binding Devise, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
         <Button
             x:Name="btnConvertir"
+            Margin="0,20,0,0"
             Click="btnConvertir_click"
             RelativePanel.AlignHorizontalCenterWithPanel="True"
             RelativePanel.Below="cbxDevise">
@@ -40,6 +47,7 @@
         </Button>
         <TextBlock
             x:Name="textblockMontantDevise"
+            Margin="0,70,0,0"
             DataContext="{Binding SelectedItem, ElementName=cbxDevise}"
             RelativePanel.AlignHorizontalCenterWithPanel="True"
             RelativePanel.Below="btnConvertir">

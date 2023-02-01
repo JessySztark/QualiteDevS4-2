@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>D250-S13</Machine>
+    <Machine>D250-S06</Machine>
     <WindowsUser>sztarkj</WindowsUser>
     <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
@@ -10,14 +10,14 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>ca40c008-7a32-4cac-aeaf-f5001df391eb</PackageIdentityName>
     <PackageIdentityPublisher>CN=sztarkj</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\sztarkj\Desktop\github\ClientConvertisseur\ClientConvertisseur\obj\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\sztarkj\Desktop\github\QualiteDevS4-2\ClientConvertisseur\ClientConvertisseur\obj\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath>
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\sztarkj\Desktop\github\ClientConvertisseur\ClientConvertisseur\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\AppX</LayoutDir>
+    <LayoutDir>C:\Users\sztarkj\Desktop\github\QualiteDevS4-2\ClientConvertisseur\ClientConvertisseur\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\AppX</LayoutDir>
     <RegisteredManifestChecksum>189E02677C8D4540E926768A3FD3F8ED9E15C668ABDC4890AB257AE654A8B5FD</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>ca40c008-7a32-4cac-aeaf-f5001df391eb_1.0.0.0_x86__nwqjgmvdefsga</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>ca40c008-7a32-4cac-aeaf-f5001df391eb_nwqjgmvdefsga!App</RegisteredUserModeAppID>
@@ -26,32 +26,32 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\sztarkj\Desktop\github\ClientConvertisseur\ClientConvertisseur\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\sztarkj\Desktop\github\QualiteDevS4-2\ClientConvertisseur\ClientConvertisseur\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-01-30T16:41:50.259</Modified>
+      <Modified>2023-02-01T13:50:17.521</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\sztarkj\Desktop\github\ClientConvertisseur\ClientConvertisseur\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\resources.pri">
+    <AppxPackagedFile Include="C:\Users\sztarkj\Desktop\github\QualiteDevS4-2\ClientConvertisseur\ClientConvertisseur\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-01-30T16:41:49.891</Modified>
+      <Modified>2023-02-01T13:50:17.066</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sztarkj\Desktop\github\ClientConvertisseur\ClientConvertisseur\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\ClientConvertisseur.runtimeconfig.json">
+    <AppxPackagedFile Include="C:\Users\sztarkj\Desktop\github\QualiteDevS4-2\ClientConvertisseur\ClientConvertisseur\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\ClientConvertisseur.runtimeconfig.json">
       <PackagePath>ClientConvertisseur.runtimeconfig.json</PackagePath>
-      <Modified>2023-01-30T13:28:03.432</Modified>
+      <Modified>2023-02-01T13:20:15.544</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sztarkj\Desktop\github\ClientConvertisseur\ClientConvertisseur\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\ClientConvertisseur.dll">
+    <AppxPackagedFile Include="C:\Users\sztarkj\Desktop\github\QualiteDevS4-2\ClientConvertisseur\ClientConvertisseur\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\ClientConvertisseur.dll">
       <PackagePath>ClientConvertisseur.dll</PackagePath>
-      <Modified>2023-01-30T16:41:49.425</Modified>
+      <Modified>2023-02-01T13:50:16.461</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sztarkj\Desktop\github\ClientConvertisseur\ClientConvertisseur\obj\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\apphost.exe">
+    <AppxPackagedFile Include="C:\Users\sztarkj\Desktop\github\QualiteDevS4-2\ClientConvertisseur\ClientConvertisseur\obj\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\apphost.exe">
       <PackagePath>ClientConvertisseur.exe</PackagePath>
-      <Modified>2023-01-30T16:41:49.658</Modified>
+      <Modified>2023-02-01T13:50:16.662</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sztarkj\Desktop\github\ClientConvertisseur\ClientConvertisseur\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\ClientConvertisseur.deps.json">
+    <AppxPackagedFile Include="C:\Users\sztarkj\Desktop\github\QualiteDevS4-2\ClientConvertisseur\ClientConvertisseur\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\ClientConvertisseur.deps.json">
       <PackagePath>ClientConvertisseur.deps.json</PackagePath>
-      <Modified>2023-01-30T14:08:47.588</Modified>
+      <Modified>2023-02-01T13:20:15.358</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sztarkj\.nuget\packages\microsoft.netcore.app.runtime.win-x86\6.0.13\runtimes\win-x86\lib\net6.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -1013,33 +1013,33 @@
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
       <Modified>2022-11-08T19:31:22.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sztarkj\Desktop\github\ClientConvertisseur\ClientConvertisseur\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\sztarkj\Desktop\github\QualiteDevS4-2\ClientConvertisseur\ClientConvertisseur\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2023-01-20T10:02:32.499</Modified>
+      <Modified>2023-02-01T13:19:37.893</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sztarkj\Desktop\github\ClientConvertisseur\ClientConvertisseur\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\sztarkj\Desktop\github\QualiteDevS4-2\ClientConvertisseur\ClientConvertisseur\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
-      <Modified>2023-01-20T10:02:32.500</Modified>
+      <Modified>2023-02-01T13:19:37.893</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sztarkj\Desktop\github\ClientConvertisseur\ClientConvertisseur\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\sztarkj\Desktop\github\QualiteDevS4-2\ClientConvertisseur\ClientConvertisseur\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
-      <Modified>2023-01-20T10:02:32.501</Modified>
+      <Modified>2023-02-01T13:19:37.940</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sztarkj\Desktop\github\ClientConvertisseur\ClientConvertisseur\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\sztarkj\Desktop\github\QualiteDevS4-2\ClientConvertisseur\ClientConvertisseur\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
-      <Modified>2023-01-20T10:02:32.502</Modified>
+      <Modified>2023-02-01T13:19:37.940</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sztarkj\Desktop\github\ClientConvertisseur\ClientConvertisseur\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\sztarkj\Desktop\github\QualiteDevS4-2\ClientConvertisseur\ClientConvertisseur\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
-      <Modified>2023-01-20T10:02:32.503</Modified>
+      <Modified>2023-02-01T13:19:37.940</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sztarkj\Desktop\github\ClientConvertisseur\ClientConvertisseur\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\sztarkj\Desktop\github\QualiteDevS4-2\ClientConvertisseur\ClientConvertisseur\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
-      <Modified>2023-01-20T10:02:32.503</Modified>
+      <Modified>2023-02-01T13:19:37.940</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sztarkj\Desktop\github\ClientConvertisseur\ClientConvertisseur\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\sztarkj\Desktop\github\QualiteDevS4-2\ClientConvertisseur\ClientConvertisseur\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
-      <Modified>2023-01-20T10:02:32.504</Modified>
+      <Modified>2023-02-01T13:19:37.940</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

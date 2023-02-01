@@ -1187,11 +1187,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sztarkj\\Desktop\\github\\ClientConvertisseur\\ClientConvertisseur\\ClientConvertisseur.csproj",
+      "projectUniqueName": "C:\\Users\\sztarkj\\Desktop\\github\\QualiteDevS4-2\\ClientConvertisseur\\ClientConvertisseur\\ClientConvertisseur.csproj",
       "projectName": "ClientConvertisseur",
-      "projectPath": "C:\\Users\\sztarkj\\Desktop\\github\\ClientConvertisseur\\ClientConvertisseur\\ClientConvertisseur.csproj",
+      "projectPath": "C:\\Users\\sztarkj\\Desktop\\github\\QualiteDevS4-2\\ClientConvertisseur\\ClientConvertisseur\\ClientConvertisseur.csproj",
       "packagesPath": "C:\\Users\\sztarkj\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sztarkj\\Desktop\\github\\ClientConvertisseur\\ClientConvertisseur\\obj\\",
+      "outputPath": "C:\\Users\\sztarkj\\Desktop\\github\\QualiteDevS4-2\\ClientConvertisseur\\ClientConvertisseur\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "d37+/sNp12coV7fG5YvRWz9CK6R/lXK+l6VslaAt7uaXEdVbf3nEtm+YVUPI282xZ6U1OfvlI2Bic5xBn+l+dw==",
+  "dgSpecHash": "JtgdItbq+bcdiQcLjTZkH+9JIic5VeJJ50Jr/sT1w3gNS9yj/CdOTXDXT43S7U2ACwgDjch/n+p9+oqm/I6a0g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sztarkj\\Desktop\\github\\ClientConvertisseur\\ClientConvertisseur\\ClientConvertisseur.csproj",
+  "projectFilePath": "C:\\Users\\sztarkj\\Desktop\\github\\QualiteDevS4-2\\ClientConvertisseur\\ClientConvertisseur\\ClientConvertisseur.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sztarkj\\.nuget\\packages\\microsoft.windows.sdk.buildtools\\10.0.22621.755\\microsoft.windows.sdk.buildtools.10.0.22621.755.nupkg.sha512",
     "C:\\Users\\sztarkj\\.nuget\\packages\\microsoft.windowsappsdk\\1.2.230118.102\\microsoft.windowsappsdk.1.2.230118.102.nupkg.sha512",

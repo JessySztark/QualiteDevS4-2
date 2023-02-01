@@ -362,6 +362,7 @@ namespace ClientConvertisseur.ClientConvertisseur_XamlTypeInfo
                 userType = new global::ClientConvertisseur.ClientConvertisseur_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
                 userType.Activator = Activate_6_ConvertisseurEuroPage;
                 userType.AddMemberName("LesDevises");
+                userType.AddMemberName("Devise");
                 userType.AddMemberName("MontantEuro");
                 userType.AddMemberName("MontantCalculer");
                 userType.SetIsLocalType();
@@ -520,22 +521,32 @@ namespace ClientConvertisseur.ClientConvertisseur_XamlTypeInfo
             var that = (global::ClientConvertisseur.Models.Devise)instance;
             that.TauxDevise = (global::System.Double)Value;
         }
-        private object get_5_ConvertisseurEuroPage_MontantEuro(object instance)
+        private object get_5_ConvertisseurEuroPage_Devise(object instance)
+        {
+            var that = (global::ClientConvertisseur.views.ConvertisseurEuroPage)instance;
+            return that.Devise;
+        }
+        private void set_5_ConvertisseurEuroPage_Devise(object instance, object Value)
+        {
+            var that = (global::ClientConvertisseur.views.ConvertisseurEuroPage)instance;
+            that.Devise = (global::ClientConvertisseur.Models.Devise)Value;
+        }
+        private object get_6_ConvertisseurEuroPage_MontantEuro(object instance)
         {
             var that = (global::ClientConvertisseur.views.ConvertisseurEuroPage)instance;
             return that.MontantEuro;
         }
-        private void set_5_ConvertisseurEuroPage_MontantEuro(object instance, object Value)
+        private void set_6_ConvertisseurEuroPage_MontantEuro(object instance, object Value)
         {
             var that = (global::ClientConvertisseur.views.ConvertisseurEuroPage)instance;
             that.MontantEuro = (global::System.Double)Value;
         }
-        private object get_6_ConvertisseurEuroPage_MontantCalculer(object instance)
+        private object get_7_ConvertisseurEuroPage_MontantCalculer(object instance)
         {
             var that = (global::ClientConvertisseur.views.ConvertisseurEuroPage)instance;
             return that.MontantCalculer;
         }
-        private void set_6_ConvertisseurEuroPage_MontantCalculer(object instance, object Value)
+        private void set_7_ConvertisseurEuroPage_MontantCalculer(object instance, object Value)
         {
             var that = (global::ClientConvertisseur.views.ConvertisseurEuroPage)instance;
             that.MontantCalculer = (global::System.Double)Value;
@@ -579,17 +590,23 @@ namespace ClientConvertisseur.ClientConvertisseur_XamlTypeInfo
                 xamlMember.Getter = get_4_Devise_TauxDevise;
                 xamlMember.Setter = set_4_Devise_TauxDevise;
                 break;
+            case "ClientConvertisseur.views.ConvertisseurEuroPage.Devise":
+                userType = (global::ClientConvertisseur.ClientConvertisseur_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ClientConvertisseur.views.ConvertisseurEuroPage");
+                xamlMember = new global::ClientConvertisseur.ClientConvertisseur_XamlTypeInfo.XamlMember(this, "Devise", "ClientConvertisseur.Models.Devise");
+                xamlMember.Getter = get_5_ConvertisseurEuroPage_Devise;
+                xamlMember.Setter = set_5_ConvertisseurEuroPage_Devise;
+                break;
             case "ClientConvertisseur.views.ConvertisseurEuroPage.MontantEuro":
                 userType = (global::ClientConvertisseur.ClientConvertisseur_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ClientConvertisseur.views.ConvertisseurEuroPage");
                 xamlMember = new global::ClientConvertisseur.ClientConvertisseur_XamlTypeInfo.XamlMember(this, "MontantEuro", "Double");
-                xamlMember.Getter = get_5_ConvertisseurEuroPage_MontantEuro;
-                xamlMember.Setter = set_5_ConvertisseurEuroPage_MontantEuro;
+                xamlMember.Getter = get_6_ConvertisseurEuroPage_MontantEuro;
+                xamlMember.Setter = set_6_ConvertisseurEuroPage_MontantEuro;
                 break;
             case "ClientConvertisseur.views.ConvertisseurEuroPage.MontantCalculer":
                 userType = (global::ClientConvertisseur.ClientConvertisseur_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ClientConvertisseur.views.ConvertisseurEuroPage");
                 xamlMember = new global::ClientConvertisseur.ClientConvertisseur_XamlTypeInfo.XamlMember(this, "MontantCalculer", "Double");
-                xamlMember.Getter = get_6_ConvertisseurEuroPage_MontantCalculer;
-                xamlMember.Setter = set_6_ConvertisseurEuroPage_MontantCalculer;
+                xamlMember.Getter = get_7_ConvertisseurEuroPage_MontantCalculer;
+                xamlMember.Setter = set_7_ConvertisseurEuroPage_MontantCalculer;
                 break;
             }
             return xamlMember;
