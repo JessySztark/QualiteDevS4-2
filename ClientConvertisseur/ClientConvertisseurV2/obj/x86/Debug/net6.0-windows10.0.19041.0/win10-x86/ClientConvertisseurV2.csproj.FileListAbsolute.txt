@@ -290,3 +290,17 @@ C:\Users\sztarkj\Desktop\github\QualiteDevS4-2\ClientConvertisseur\ClientConvert
 C:\Users\sztarkj\Desktop\github\QualiteDevS4-2\ClientConvertisseur\ClientConvertisseurV2\obj\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\qualifiers.txt.intermediate
 C:\Users\sztarkj\Desktop\github\QualiteDevS4-2\ClientConvertisseur\ClientConvertisseurV2\obj\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\MultipleQualifiersPerDimensionFound.txt
 C:\Users\sztarkj\Desktop\github\QualiteDevS4-2\ClientConvertisseur\ClientConvertisseurV2\obj\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\ProjectArchitectures.txt
+C:\Users\sztarkj\Desktop\github\QualiteDevS4-2\ClientConvertisseur\ClientConvertisseurV2\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\ClientConvertisseurClassModels.deps.json
+C:\Users\sztarkj\Desktop\github\QualiteDevS4-2\ClientConvertisseur\ClientConvertisseurV2\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\ClientConvertisseurClassModels.runtimeconfig.json
+C:\Users\sztarkj\Desktop\github\QualiteDevS4-2\ClientConvertisseur\ClientConvertisseurV2\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\ClientConvertisseurClassModels.exe
+C:\Users\sztarkj\Desktop\github\QualiteDevS4-2\ClientConvertisseur\ClientConvertisseurV2\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\Assets\LockScreenLogo.scale-200.png
+C:\Users\sztarkj\Desktop\github\QualiteDevS4-2\ClientConvertisseur\ClientConvertisseurV2\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\Assets\SplashScreen.scale-200.png
+C:\Users\sztarkj\Desktop\github\QualiteDevS4-2\ClientConvertisseur\ClientConvertisseurV2\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\Assets\Square150x150Logo.scale-200.png
+C:\Users\sztarkj\Desktop\github\QualiteDevS4-2\ClientConvertisseur\ClientConvertisseurV2\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\Assets\Square44x44Logo.scale-200.png
+C:\Users\sztarkj\Desktop\github\QualiteDevS4-2\ClientConvertisseur\ClientConvertisseurV2\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\Assets\Square44x44Logo.targetsize-24_altform-unplated.png
+C:\Users\sztarkj\Desktop\github\QualiteDevS4-2\ClientConvertisseur\ClientConvertisseurV2\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\Assets\StoreLogo.png
+C:\Users\sztarkj\Desktop\github\QualiteDevS4-2\ClientConvertisseur\ClientConvertisseurV2\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\Assets\Wide310x150Logo.scale-200.png
+C:\Users\sztarkj\Desktop\github\QualiteDevS4-2\ClientConvertisseur\ClientConvertisseurV2\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\sztarkj\Desktop\github\QualiteDevS4-2\ClientConvertisseur\ClientConvertisseurV2\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\sztarkj\Desktop\github\QualiteDevS4-2\ClientConvertisseur\ClientConvertisseurV2\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\ClientConvertisseurClassModels.dll
+C:\Users\sztarkj\Desktop\github\QualiteDevS4-2\ClientConvertisseur\ClientConvertisseurV2\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\ClientConvertisseurClassModels.pdb

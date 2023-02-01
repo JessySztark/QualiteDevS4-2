@@ -1,0 +1,65 @@
+﻿<!--  Copyright (c) Microsoft Corporation and Contributors.  -->
+<!--  Licensed under the MIT License.  -->
+
+<Page
+    x:Class="ClientConvertisseurV2.Views.ConvertisseurEuroPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="using:ClientConvertisseurV2.Views"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+    RequestedTheme="Dark"
+    mc:Ignorable="d">
+
+    <RelativePanel>
+        <TextBlock x:ConnectionId='2'
+            x:Name="textblockEuro"
+            Margin="0,50,0,0"
+            RelativePanel.AlignHorizontalCenterWithPanel="True">
+            Montant en euros
+        </TextBlock>
+        <TextBox x:ConnectionId='3'
+            x:Name="textboxEuro"
+            RelativePanel.AlignHorizontalCenterWithPanel="True"
+            RelativePanel.Below="textblockEuro"
+            Text="{Binding MontantEuro, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+        <TextBlock x:ConnectionId='4'
+            x:Name="textblockDevise"
+            Margin="0,50,0,0"
+            RelativePanel.AlignHorizontalCenterWithPanel="True"
+            RelativePanel.Below="textboxEuro">
+            Devise
+        </TextBlock>
+        <ComboBox x:ConnectionId='5'
+            x:Name="cbxDevise"
+            DisplayMemberPath="NomDevise"
+            ItemsSource="{Binding LesDevises}"
+            RelativePanel.AlignHorizontalCenterWithPanel="True"
+            RelativePanel.Below="textblockDevise"
+            SelectedItem="{Binding Devise, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+        <Button x:ConnectionId='6'
+            x:Name="btnConvertir"
+            Margin="0,20,0,0"
+            Command="{Binding BtnSetConversion}"
+            RelativePanel.AlignHorizontalCenterWithPanel="True"
+            RelativePanel.Below="cbxDevise">
+            Convertir
+        </Button>
+        <TextBlock x:ConnectionId='7'
+            x:Name="textblockMontantDevise"
+            Margin="0,70,0,0"
+            DataContext="{Binding SelectedItem, ElementName=cbxDevise}"
+            RelativePanel.AlignHorizontalCenterWithPanel="True"
+            RelativePanel.Below="btnConvertir">
+            Montant en devises
+        </TextBlock>
+        <TextBox x:ConnectionId='8'
+            x:Name="textboxMontantDevise"
+            IsReadOnly="True"
+            RelativePanel.AlignHorizontalCenterWithPanel="True"
+            RelativePanel.Below="textblockMontantDevise"
+            Text="{Binding MontantCalculer, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+    </RelativePanel>
+</Page>
+

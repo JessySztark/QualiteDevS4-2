@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace ClientConvertisseurV2.Models {
-    public class Devise {
+    public class Devise : ClientConvertisseurClassModels.Models.Devise {
         private int idDevise;
         private String nomDevise;
         private Double tauxDevise;

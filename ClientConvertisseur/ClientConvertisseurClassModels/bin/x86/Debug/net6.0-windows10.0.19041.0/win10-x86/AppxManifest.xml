@@ -7,7 +7,7 @@
 
     Pour plus d'informations sur les fichiers manifeste, consultez http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="5859a893-103f-4612-8a52-453b3c81c250" Publisher="CN=sztarkj" Version="1.0.0.0" ProcessorArchitecture="x86" />
+  <Identity Name="bcea6948-c78b-4270-b3ec-1a2bab141735" Publisher="CN=sztarkj" Version="1.0.0.0" ProcessorArchitecture="x86" />
   <Properties>
     <DisplayName>ClientConvertisseurClassModels</DisplayName>
     <PublisherDisplayName>sztarkj</PublisherDisplayName>
@@ -16,7 +16,7 @@
   <Dependencies>
     <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0" />
     <TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0" />
-    <PackageDependency Name="Microsoft.WindowsAppRuntime.1.2" MinVersion="2000.677.1750.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
+    <PackageDependency Name="Microsoft.WindowsAppRuntime.1.2" MinVersion="2000.747.1945.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
   </Dependencies>
   <Resources>
     <Resource Language="EN-US" />

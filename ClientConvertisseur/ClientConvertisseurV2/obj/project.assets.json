@@ -18,6 +18,41 @@
           "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
         }
       },
+      "Microsoft.Extensions.DependencyInjection/7.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/7.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
       "Microsoft.Windows.SDK.BuildTools/10.0.22621.755": {
         "type": "package",
         "build": {
@@ -25,7 +60,7 @@
           "build/Microsoft.Windows.SDK.BuildTools.targets": {}
         }
       },
-      "Microsoft.WindowsAppSDK/1.2.221109.1": {
+      "Microsoft.WindowsAppSDK/1.2.230118.102": {
         "type": "package",
         "dependencies": {
           "Microsoft.Windows.SDK.BuildTools": "10.0.22621.1"
@@ -108,6 +143,21 @@
             "rid": "win10-x86"
           }
         }
+      },
+      "ClientConvertisseurClassModels/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.1.0",
+          "Microsoft.Windows.SDK.BuildTools": "10.0.22621.755",
+          "Microsoft.WindowsAppSDK": "1.2.230118.102"
+        },
+        "compile": {
+          "bin/placeholder/ClientConvertisseurClassModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ClientConvertisseurClassModels.dll": {}
+        }
       }
     },
     "net6.0-windows10.0.19041/win10-arm64": {
@@ -127,6 +177,41 @@
           "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
         }
       },
+      "Microsoft.Extensions.DependencyInjection/7.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/7.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
       "Microsoft.Windows.SDK.BuildTools/10.0.22621.755": {
         "type": "package",
         "build": {
@@ -134,7 +219,7 @@
           "build/Microsoft.Windows.SDK.BuildTools.targets": {}
         }
       },
-      "Microsoft.WindowsAppSDK/1.2.221109.1": {
+      "Microsoft.WindowsAppSDK/1.2.230118.102": {
         "type": "package",
         "dependencies": {
           "Microsoft.Windows.SDK.BuildTools": "10.0.22621.1"
@@ -206,6 +291,21 @@
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
+      },
+      "ClientConvertisseurClassModels/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.1.0",
+          "Microsoft.Windows.SDK.BuildTools": "10.0.22621.755",
+          "Microsoft.WindowsAppSDK": "1.2.230118.102"
+        },
+        "compile": {
+          "bin/placeholder/ClientConvertisseurClassModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ClientConvertisseurClassModels.dll": {}
+        }
       }
     },
     "net6.0-windows10.0.19041/win10-x64": {
@@ -225,6 +325,41 @@
           "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
         }
       },
+      "Microsoft.Extensions.DependencyInjection/7.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/7.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
       "Microsoft.Windows.SDK.BuildTools/10.0.22621.755": {
         "type": "package",
         "build": {
@@ -232,7 +367,7 @@
           "build/Microsoft.Windows.SDK.BuildTools.targets": {}
         }
       },
-      "Microsoft.WindowsAppSDK/1.2.221109.1": {
+      "Microsoft.WindowsAppSDK/1.2.230118.102": {
         "type": "package",
         "dependencies": {
           "Microsoft.Windows.SDK.BuildTools": "10.0.22621.1"
@@ -304,6 +439,21 @@
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
+      },
+      "ClientConvertisseurClassModels/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.1.0",
+          "Microsoft.Windows.SDK.BuildTools": "10.0.22621.755",
+          "Microsoft.WindowsAppSDK": "1.2.230118.102"
+        },
+        "compile": {
+          "bin/placeholder/ClientConvertisseurClassModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ClientConvertisseurClassModels.dll": {}
+        }
       }
     },
     "net6.0-windows10.0.19041/win10-x86": {
@@ -323,6 +473,41 @@
           "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
         }
       },
+      "Microsoft.Extensions.DependencyInjection/7.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/7.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
       "Microsoft.Windows.SDK.BuildTools/10.0.22621.755": {
         "type": "package",
         "build": {
@@ -330,7 +515,7 @@
           "build/Microsoft.Windows.SDK.BuildTools.targets": {}
         }
       },
-      "Microsoft.WindowsAppSDK/1.2.221109.1": {
+      "Microsoft.WindowsAppSDK/1.2.230118.102": {
         "type": "package",
         "dependencies": {
           "Microsoft.Windows.SDK.BuildTools": "10.0.22621.1"
@@ -402,6 +587,21 @@
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
+      },
+      "ClientConvertisseurClassModels/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.1.0",
+          "Microsoft.Windows.SDK.BuildTools": "10.0.22621.755",
+          "Microsoft.WindowsAppSDK": "1.2.230118.102"
+        },
+        "compile": {
+          "bin/placeholder/ClientConvertisseurClassModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ClientConvertisseurClassModels.dll": {}
+        }
       }
     }
   },
@@ -433,6 +633,64 @@
         "lib/netstandard2.1/CommunityToolkit.Mvvm.dll",
         "lib/netstandard2.1/CommunityToolkit.Mvvm.pdb",
         "lib/netstandard2.1/CommunityToolkit.Mvvm.xml"
+      ]
+    },
+    "Microsoft.Extensions.DependencyInjection/7.0.0": {
+      "sha512": "elNeOmkeX3eDVG6pYVeV82p29hr+UKDaBhrZyWvWLw/EVZSYEkZlQdkp0V39k/Xehs2Qa0mvoCvkVj3eQxNQ1Q==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection/7.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.DependencyInjection.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.targets",
+        "lib/net462/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/net462/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/net7.0/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/net7.0/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.xml",
+        "microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/7.0.0": {
+      "sha512": "h3j/QfmFN4S0w4C2A6X7arXij/M/OVw3uQHSOFxnND4DyAzO1F9eMX7Eti7lU/OkSthEE0WzRsfT/Dmx86jzCw==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/7.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
+        "lib/net462/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net462/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec",
+        "useSharedDesignerContext.txt"
       ]
     },
     "Microsoft.Windows.SDK.BuildTools/10.0.22621.755": {
@@ -626,10 +884,10 @@
         "schemas/10.0.22621.0/winrt/UapManifestSchema_v8.xsd"
       ]
     },
-    "Microsoft.WindowsAppSDK/1.2.221109.1": {
-      "sha512": "5My+tXeFoC2+jPdLD91KDuEvssEEvrQOONrKmdFE7Upws22ASwyCbF5JglJPnCvrLGhIRqwPsV/zlyX/q5LNgQ==",
+    "Microsoft.WindowsAppSDK/1.2.230118.102": {
+      "sha512": "MyHPzz4NSo+ulXkQ1sVo83SaZTFUcz429oy1m7lTfaxyU5St48p3TgzKKFRwe3WtpUf9OAUReYBCczIkojfmTQ==",
       "type": "package",
-      "path": "microsoft.windowsappsdk/1.2.221109.1",
+      "path": "microsoft.windowsappsdk/1.2.230118.102",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -1091,7 +1349,7 @@
         "manifests/Microsoft.InteractiveExperiences.manifest",
         "manifests/Microsoft.WindowsAppSdk.Foundation.manifest",
         "manifests/manifests/Microsoft.WindowsAppSdk.WinUI.manifest",
-        "microsoft.windowsappsdk.1.2.221109.1.nupkg.sha512",
+        "microsoft.windowsappsdk.1.2.230118.102.nupkg.sha512",
         "microsoft.windowsappsdk.nuspec",
         "runtimes/win10-arm64/native/Microsoft.WindowsAppRuntime.Bootstrap.dll",
         "runtimes/win10-x64/native/Microsoft.WindowsAppRuntime.Bootstrap.dll",
@@ -1265,13 +1523,20 @@
         "tools/x64/GenXbf.dll",
         "tools/x86/GenXbf.dll"
       ]
+    },
+    "ClientConvertisseurClassModels/1.0.0": {
+      "type": "project",
+      "path": "../ClientConvertisseurClassModels/ClientConvertisseurClassModels.csproj",
+      "msbuildProject": "../ClientConvertisseurClassModels/ClientConvertisseurClassModels.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0-windows10.0.19041": [
+      "ClientConvertisseurClassModels >= 1.0.0",
       "CommunityToolkit.Mvvm >= 8.1.0",
+      "Microsoft.Extensions.DependencyInjection >= 7.0.0",
       "Microsoft.Windows.SDK.BuildTools >= 10.0.22621.755",
-      "Microsoft.WindowsAppSDK >= 1.2.221109.1"
+      "Microsoft.WindowsAppSDK >= 1.2.230118.102"
     ]
   },
   "packageFolders": {
@@ -1305,7 +1570,11 @@
       "frameworks": {
         "net6.0-windows10.0.19041": {
           "targetAlias": "net6.0-windows10.0.19041.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\sztarkj\\Desktop\\github\\QualiteDevS4-2\\ClientConvertisseur\\ClientConvertisseurClassModels\\ClientConvertisseurClassModels.csproj": {
+              "projectPath": "C:\\Users\\sztarkj\\Desktop\\github\\QualiteDevS4-2\\ClientConvertisseur\\ClientConvertisseurClassModels\\ClientConvertisseurClassModels.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -1322,13 +1591,17 @@
             "target": "Package",
             "version": "[8.1.0, )"
           },
+          "Microsoft.Extensions.DependencyInjection": {
+            "target": "Package",
+            "version": "[7.0.0, )"
+          },
           "Microsoft.Windows.SDK.BuildTools": {
             "target": "Package",
             "version": "[10.0.22621.755, )"
           },
           "Microsoft.WindowsAppSDK": {
             "target": "Package",
-            "version": "[1.2.221109.1, )"
+            "version": "[1.2.230118.102, )"
           }
         },
         "imports": [
