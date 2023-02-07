@@ -7,8 +7,6 @@ using System.Net.Http.Headers;
 using System.Net.Http.Json;
 using System.Text;
 using System.Threading.Tasks;
-using Windows.Media.Protection.PlayReady;
-using Windows.Web.Http;
 using HttpClient = System.Net.Http.HttpClient;
 
 namespace ClientConvertisseur.Services {
